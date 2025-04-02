@@ -92,6 +92,7 @@ export const TodolistItem = ({
                 <span>{t.title}</span>
                 <Button title={"X"} onClick={deleteTaskHandler}/>
               </li>
+
             )
           })}
         </ul>
